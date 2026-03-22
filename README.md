@@ -2,6 +2,8 @@
 
 Run website audits directly from Claude, Cursor, or any MCP-compatible AI assistant.
 
+[![polaris-audit MCP server](https://glama.ai/mcp/servers/cnohall/polaris-audit-mcp/badges/card.svg)](https://glama.ai/mcp/servers/cnohall/polaris-audit-mcp)
+
 ## Tools
 
 | Tool | Description |
