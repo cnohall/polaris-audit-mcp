@@ -1,0 +1,28 @@
+{
+  "name": "@polarisaudit/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Polaris Audit — run website audits from any AI assistant",
+  "type": "module",
+  "bin": {
+    "polaris-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --watch dist/index.js",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["mcp", "polaris-audit", "website-audit", "gdpr", "accessibility", "security", "performance"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cnohall/polaris-audit-mcp"
+  }
+}
